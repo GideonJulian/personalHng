@@ -42,8 +42,8 @@ body {
   flex-direction: column;
   gap: 10px;
 }
-#nav-section .nav-container .bars span{
-  height: 2px ;
+#nav-section .nav-container .bars span {
+  height: 2px;
   width: 40px;
   background-color: black;
 }
@@ -111,10 +111,10 @@ body {
   font-size: 1rem;
   border-radius: 10px;
   margin-top: 10px;
-  transition: background .8s, border .8s;
+  transition: background 0.8s, border 0.8s;
   cursor: pointer;
 }
-#hero-section .hero-container a:hover{
+#hero-section .hero-container a:hover {
   background: none;
   border: 1px solid var(--logo-color);
   color: black;
@@ -134,7 +134,6 @@ body {
   position: relative;
   margin-bottom: 30px;
 }
-
 
 #about-section .about-container h1.label {
   color: #0066ff;
@@ -201,9 +200,9 @@ body {
   margin: 30px auto;
   cursor: pointer;
   text-align: center;
-  transition: background .8s, border .8s;
+  transition: background 0.8s, border 0.8s;
 }
-#about-section .about-container .bottomBtn:hover{
+#about-section .about-container .bottomBtn:hover {
   background: none;
   border: 1px solid var(--logo-color);
   color: black;
@@ -226,41 +225,99 @@ body {
   margin-left: 10px;
   color: var(--logo-color);
 }
-#goal-section .goal-container .top-text h3{
-text-align: center;
-margin: 20px;
-font-size: 1.5rem;
+#goal-section .goal-container .top-text h3 {
+  text-align: center;
+  margin: 20px;
+  font-size: 1.5rem;
 }
 #goal-section .goal-container .top-text h3 span {
   color: var(--logo-color);
 }
-#goal-section .goal-container  .goals {
+#goal-section .goal-container .goals {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
 }
-#goal-section .goal-container  .goals .goal {
+#goal-section .goal-container .goals .goal {
   box-shadow: 0 0 1rem #00000034;
-  padding: 1.5rem ; 
+  padding: 1.5rem;
   height: 170px;
   width: 350px;
   border-radius: 10px;
-  transition: all .8s;
+  transition: all 0.8s;
   border: 1px solid #fff;
-  
-  }
-  #goal-section .goal-container  .goals .goal:hover{
-    box-shadow: none;
-  }
-  #goal-section .goal-container  .goals .goal  h3 {
+}
+#goal-section .goal-container .goals .goal:hover {
+  box-shadow: none;
+}
+#goal-section .goal-container .goals .goal h3 {
   margin-top: 5px;
   color: var(--logo-color);
   text-align: center;
- 
 }
-#goal-section .goal-container  .goals .goal p {
+#goal-section .goal-container .goals .goal p {
   text-align: center;
   margin-top: 10px;
   font-size: 1rem;
+}
+
+/* contact section */
+
+#contact-section {
+  width: 100%;
+}
+#contact-section .contact-container {
+  padding: 2rem;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+
+  align-items: center;
+  position: relative;
+  margin-bottom: 60px;
+}
+#contact-section .contact-container h1 {
+  color: var(--logo-color);
+}
+#contact-section .contact-container  a {
+  background-color: #f7f7f7;
+  padding: 1rem 2rem;
+  box-shadow: 0 0 1rem #00000034;
+  border: 2px solid #fff;
+  text-align: center;
+  color: var(--logo-color);
+  font-size: 1rem;
+  transition: all 0.8s;
+  display: block;
+}
+
+/* Fun Links */
+#fun-links {
+  width: 100%;
+}
+#fun-links .link-container{
+  padding: 2rem;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+
+  align-items: center;
+  position: relative;
+  margin-bottom: 60px;
+}
+#fun-links .link-container  h1{
+  color: var(--logo-color);
+}
+#fun-links .link-container a {
+  background-color: #f7f7f7;
+  padding: 1rem 2rem;
+  box-shadow: 0 0 1rem #00000034;
+  border: 2px solid #fff;
+  text-align: center;
+  color: var(--logo-color);
+  font-size: 1rem;
+  transition: all 0.8s;
+  display: block;
+  margin: 20px;
 }

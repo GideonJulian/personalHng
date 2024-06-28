@@ -14,7 +14,7 @@
       <div class="nav-container">
         <!-- logo -->
         <div class="logo">
-          <h3>GideonBright</h3>
+          <h3 data-testid="slackDisplayName">GideonBright</h3>
         </div>
         <!-- links -->
 
@@ -32,7 +32,7 @@
     <div id="hero-section">
       <div class="hero-container">
         <div class="textBox">
-          <h1 data-testid="slackProfile">Gideon Bright</h1>
+          <h1 data-testid="slackDisplayName">Gideon Bright</h1>
           <h3 id="typewriter"></h3>
           <p>
          This is a website about my Goal as a Frontend Developer in the next 2 years
@@ -57,7 +57,7 @@
           />
         </div>
         <div class="textBox">
-          <h1>Hello 👋, i am Gideon Bright</h1>
+          <h1 data-testid="slackDisplayName">Hello 👋, i am Gideon Bright</h1>
           <p>
             i am a Professional in Frontend Technologies Like HTML, CSS
             JAVASCRIPT, REACTJS
@@ -125,6 +125,20 @@
         </div>
       </div>
     </div>
+
+    <!-- contact section -->
+     <div id="contact-section">
+      <div class="contact-container">
+        <h1>Contact me </h1>
+        <a href="gideonchinonso77@gmail.com" data-testid="slackEmail">gideonchinonso77@gmail.com</a>
+      </div>
+     </div>
+     <div id="fun-links">
+      <div class="link-container">
+        <h1>Fun Links</h1>
+        <ul><a href="https://hng.tech/learn" data-testid="hngLink">hng.tech/learn</a><a href="https://keyword.dog/" data-testid="keywordLink">keyword.dog</a><a href="https://scrapeanyweb.site/" data-testid="scrapeanyWebLink">scrapanyweb.site</a></ul>
+      </div>
+     </div>
     <script src="main.js"></script>
   </body>
 </html>
