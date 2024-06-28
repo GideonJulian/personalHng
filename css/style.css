@@ -99,7 +99,13 @@ body {
   font-size: 1rem;
   border-radius: 10px;
   margin-top: 10px;
+  transition: background .8s, border .8s;
   cursor: pointer;
+}
+#hero-section .hero-container a:hover{
+  background: none;
+  border: 1px solid var(--logo-color);
+  color: black;
 }
 /* About section  */
 #about-section {
@@ -116,6 +122,8 @@ body {
   position: relative;
   margin-bottom: 30px;
 }
+
+
 #about-section .about-container h1.label {
   color: #0066ff;
   margin: 10px 40px;
@@ -180,6 +188,13 @@ body {
   border-radius: 10px;
   margin: 30px auto;
   cursor: pointer;
+  text-align: center;
+  transition: background .8s, border .8s;
+}
+#about-section .about-container .bottomBtn:hover{
+  background: none;
+  border: 1px solid var(--logo-color);
+  color: black;
 }
 /* GOALS SECTION  */
 #goal-section {
@@ -193,7 +208,7 @@ body {
 
   align-items: center;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 #goal-section .goal-container h1 {
   margin-left: 10px;
@@ -206,4 +221,34 @@ font-size: 1.5rem;
 }
 #goal-section .goal-container .top-text h3 span {
   color: var(--logo-color);
+}
+#goal-section .goal-container  .goals {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#goal-section .goal-container  .goals .goal {
+  box-shadow: 0 0 1rem #00000034;
+  padding: 1.5rem ; 
+  height: 170px;
+  width: 350px;
+  border-radius: 10px;
+  transition: all .8s;
+  border: 1px solid #fff;
+  
+  }
+  #goal-section .goal-container  .goals .goal:hover{
+    box-shadow: none;
+  }
+  #goal-section .goal-container  .goals .goal  h3 {
+  margin-top: 5px;
+  color: var(--logo-color);
+  text-align: center;
+ 
+}
+#goal-section .goal-container  .goals .goal p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1rem;
 }
