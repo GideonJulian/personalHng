@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+html {
+    overflow-x: hidden;
+}
+:root {
+  --font-family: "Mo`ntserrat", sans-serif;
+  --logo-font: "Montserrat Alternates", sans-serif;
+  --logo-color: #0066ff;
+  --nav-Bg: #fff;
+  --bg-color: #f7f7f7;
+}
+body {
+  background-color: var(--bg-color);
+  font-family: var(--font-family);
+}
+#nav-section {
+  width: 100%;
+  background-color: var(--nav-Bg);
+  padding: 2rem;
+}
+#nav-section .nav-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#nav-section .nav-container .logo h3 {
+  color: var(--logo-color);
+  font-family: var(--logo-font);
+  font-size: 1.7rem;
+  margin-left: 20px;
+}
+#nav-section .nav-container ul {
+  display: flex;
+}
+#nav-section .nav-container ul li {
+  list-style: none;
+  margin: 0 15px;
+}
+#nav-section .nav-container ul li a {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+/* hero-section */
+
+#hero-section {
+  width: 100%;
+  padding: 2rem;
+}
+#hero-section .hero-container {
+  max-width: 1440px;
+  margin-left: 160px;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+#hero-section .hero-container .textBox {
+  margin-top: 30px;
+}
+#hero-section .hero-container .textBox h1 {
+  font-size: 5.5rem;
+  font-weight: 800;
+  margin: 0;
+
+  /* width: 300px; */
+}
+#hero-section .hero-container .textBox h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--logo-color);
+}
+#hero-section .hero-container .textBox p {
+  font-size: 1.3rem;
+  color: #1b263b;
+  width: 500px;
+}
+#hero-section .hero-container .illustration {
+  margin-top: 40px;
+}
+#hero-section .hero-container button {
+  display: block;
+  border: none;
+  padding: 15px 30px;
+  color: white;
+  background-color: var(--logo-color);
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
