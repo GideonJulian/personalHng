@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded", ()=>{
 
+document.addEventListener("DOMContentLoaded", ()=>{
     const text = [
         "Frontend Developer",
         "Backend Developer",
@@ -27,4 +27,19 @@ document.addEventListener("DOMContentLoaded", ()=>{
         }
     }
     typewriter();
+    
+// Displaying current time and date 
+
+function updateTimeAndDate (){
+    const now = new Date()
+      const options = {
+        weekday: 'long',  
+        hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true
+    };
+    const formattedDate = now.toLocaleDateString('en-US', options)
+    const htmlElement = document.getElementById('currentTime')
+    htmlElement.textContent = formattedDate
+}
+setInterval(updateTimeAndDate, 1000);
+updateTimeAndDate()
 })

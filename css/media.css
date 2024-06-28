@@ -1,5 +1,5 @@
 @media screen and (max-width: 700px) {
-  html{
+  html {
     user-select: none;
   }
   #nav-section .nav-container ul {
@@ -13,13 +13,11 @@
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
- 
   }
   #hero-section .hero-container .illustration {
     margin-left: -30px;
     margin-top: 10px;
     overflow-x: hidden;
-
   }
   #hero-section .hero-container .illustration img {
     overflow-x: hidden;
@@ -28,33 +26,34 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 80px;margin-top: 10px;
+    margin-left: 80px;
+    margin-top: 10px;
   }
   #hero-section .hero-container .textBox h1 {
     text-align: center;
     font-size: 2.5rem;
     margin-left: -90px;
   }
-  #hero-section .hero-container .textBox h3{
+  #hero-section .hero-container .textBox h3 {
     font-size: 1.7rem;
     margin-left: -70px;
   }
-  #hero-section .hero-container .textBox p{
+  #hero-section .hero-container .textBox p {
     font-size: 16px;
     width: 350px;
     text-align: center;
     margin-left: -90px;
   }
-  #hero-section .hero-container .textBox a{
+  #hero-section .hero-container .textBox a {
     padding: 20px 90px;
     margin-left: -90px;
   }
   #about-section .about-container {
     flex-direction: column;
-    padding: 1rem .9rem;
+    padding: 1rem 0.9rem;
     margin: 30px 0;
   }
-  #about-section .about-container .textBox{
+  #about-section .about-container .textBox {
     width: 100%;
     padding: 1rem;
     margin-top: 130px;
@@ -71,15 +70,44 @@
   #about-section .about-container .textBox .stacks {
     margin: 10px auto;
   }
-  #goal-section .goal-container  .goals{
-      flex-direction: column;
+  #goal-section .goal-container .goals {
+    flex-direction: column;
   }
-  #goal-section .goal-container  .goals .goal{ 
-
+  #goal-section .goal-container .goals .goal {
     width: 310px;
+ }
+  /*.sideBar.active{
+    width:0;
+    background-color: #fff;
+    height: 50%;
+    position: fixed;
+    z-index: 100;
+    box-shadow: 0 0 1rem #00000034;
+
   }
+  .sideBar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 60px auto;
   }
- /*  @media screen and (min-width: 801px) {
+  .sideBar ul li {
+  padding: 1rem;
+  list-style: none;
+  }
+  .sideBar ul li a {
+    color:#0066ff;
+    font-size: 1/5rem;
+  } */
+  #nav-section .nav-container  .bars{
+    display: flex;
+  }
+   #currentTime{
+    font-size: 1rem;
+   }
+}
+/*  @media screen and (min-width: 801px) {
   #hero-section .hero-container .textBox{
     margin-left: 10px;
   
