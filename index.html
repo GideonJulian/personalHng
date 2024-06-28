@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
-    <title>GideonHng</title>
+    <title>GideonBright</title>
   </head>
   <body>
     <!-- Navbar Section  -->
@@ -14,13 +14,13 @@
       <div class="nav-container">
         <!-- logo -->
         <div class="logo">
-          <h3>GideonHng</h3>
+          <h3>GideonBright</h3>
         </div>
         <!-- links -->
 
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about-section">About</a></li>
           <li><a href="">Goals</a></li>
           <li><a href="">Portfolio</a></li>
           <li><a href="">Contact</a></li>
@@ -31,16 +31,77 @@
     <div id="hero-section">
       <div class="hero-container">
         <div class="textBox">
-          <h1>Gideon Bright</h1>
-          <h3>Frontend Devlopet</h3>
+          <h1 data-testid="slackProfile">Gideon Bright</h1>
+          <h3>Frontend Devloper</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
             voluptate minima velit esse atque dolores.
           </p>
-          <button>Learn More</button>
+          <a href="#about-section">My Goal</a>
         </div>
         <div class="illustration">
           <img src="images/Code_typing-amico-removebg-preview.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- About me -->
+    <div id="about-section">
+      <div class="about-container">
+        <h1 class="label">About Me</h1>
+        <div class="img">
+          <img
+            src="images/userimg.jpg"
+            alt=""
+            data-testid="slackProfilePicture"
+          />
+        </div>
+        <div class="textBox">
+          <h1>Hello 👋, i am Gideon Bright</h1>
+          <p>
+            i am a Professional in Frontend Technologies Like HTML, CSS
+            JAVASCRIPT, REACTJS
+          </p>
+          <p>
+            Things i do when i am not coding are VIDOE EDITING, VIDEO RECORDING
+            AND GAMING
+          </p>
+
+          <div>
+            <h1>Stacks</h1>
+            <div class="stacks">
+              <div>HTML</div>
+              <div>CSS</div>
+              <div>JAVASCRIPT</div>
+              <div>REACTJS</div>
+            </div>
+          </div>
+          <!-- <div class="fun-links">
+            <h3>Fun links</h3>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            
+          </div> -->
+          <div>
+            <button class="bottomBtn">My Goals</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Goals Section -->
+    <div id="goal-section">
+      <div class="goal-container">
+        <h1>My Goal</h1>
+        <div class="top-text">
+          <h3>
+            My goal as a Frontend Devloper in the next <span>2 years</span>
+          </h3>
+        </div>
+
+        <div class="goals">
+          <div class="goal">
+            
+          </div>
         </div>
       </div>
     </div>

@@ -8,7 +8,8 @@
   color: black;
 }
 html {
-    overflow-x: hidden;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 :root {
   --font-family: "Mo`ntserrat", sans-serif;
@@ -59,13 +60,14 @@ body {
 }
 #hero-section .hero-container {
   max-width: 1440px;
-  margin-left: 160px;
+  margin-left: auto;
   margin-right: auto;
   display: flex;
   align-items: center;
 }
 #hero-section .hero-container .textBox {
   margin-top: 30px;
+  margin-left: 160px;
 }
 #hero-section .hero-container .textBox h1 {
   font-size: 5.5rem;
@@ -87,9 +89,9 @@ body {
 #hero-section .hero-container .illustration {
   margin-top: 40px;
 }
-#hero-section .hero-container button {
-  display: block;
-  border: none;
+#hero-section .hero-container a {
+  display: inline-block;
+  box-shadow: 0 0 1rem #00000034;
   padding: 15px 30px;
   color: white;
   background-color: var(--logo-color);
@@ -98,4 +100,109 @@ body {
   border-radius: 10px;
   margin-top: 10px;
   cursor: pointer;
+}
+/* About section  */
+#about-section {
+  width: 100%;
+  background-color: #1b263b;
+}
+#about-section .about-container {
+  padding: 2rem;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+#about-section .about-container h1.label {
+  color: #0066ff;
+  margin: 10px 40px;
+}
+#about-section .about-container .textBox {
+  padding: 2rem;
+  background-color: var(--bg-color);
+  width: 70%;
+  height: 450px;
+  box-shadow: 1rem 1rem 5rem #0000001a;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+#about-section .about-container .textBox h1 {
+  color: var(--logo-color);
+  text-align: center;
+}
+#about-section .about-container .textBox P {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+#about-section .about-container .textBox .stacks {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  margin-top: 20px;
+}
+#about-section .about-container .textBox .stacks div {
+  background-color: #f7f7f7;
+  padding: 1rem 2rem;
+  box-shadow: 0 0 1rem #00000034;
+  border: 2px solid #fff;
+  text-align: center;
+  color: var(--logo-color);
+  font-size: 1rem;
+  transition: all 0.8s;
+}
+#about-section .about-container .textBox .stacks div:hover {
+  box-shadow: none;
+}
+#about-section .about-container .img {
+  position: absolute;
+  top: 50px;
+  left: 170px;
+}
+#about-section .about-container .img img {
+  border-radius: 100px;
+  border: 2px solid var(--logo-color);
+
+  box-shadow: 1rem 1rem 5rem #0000001a;
+  padding: 3px;
+}
+#about-section .about-container .bottomBtn {
+  display: block;
+  box-shadow: 0 0 1rem #00000034;
+  padding: 15px 30px;
+  color: white;
+  background-color: var(--logo-color);
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin: 30px auto;
+  cursor: pointer;
+}
+#goal-section {
+  width: 100%;
+}
+#goal-section .goal-container {
+  padding: 2rem;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+
+  align-items: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+#goal-section .goal-container h1 {
+  margin-left: 10px;
+  color: var(--logo-color);
+}
+#goal-section .goal-container .top-text h3{
+text-align: center;
+margin: 20px;
+font-size: 1.5rem;
+}
+#goal-section .goal-container .top-text h3 span {
+  color: var(--logo-color);
 }

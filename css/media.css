@@ -1,4 +1,7 @@
 @media screen and (max-width: 700px) {
+  html{
+    user-select: none;
+  }
   #nav-section .nav-container ul {
     display: none;
   }
@@ -13,7 +16,7 @@
  
   }
   #hero-section .hero-container .illustration {
-    margin-left: -180px;
+    margin-left: -30px;
     margin-top: 10px;
     overflow-x: hidden;
 
@@ -25,7 +28,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: -60px;
+    margin-left: 80px;
   }
   #hero-section .hero-container .textBox h1 {
     text-align: center;
@@ -34,7 +37,7 @@
   }
   #hero-section .hero-container .textBox h3{
     font-size: 1.7rem;
-    margin-left: -90px;
+    margin-left: -70px;
   }
   #hero-section .hero-container .textBox p{
     font-size: 16px;
@@ -42,8 +45,58 @@
     text-align: center;
     margin-left: -90px;
   }
-  #hero-section .hero-container .textBox button{
+  #hero-section .hero-container .textBox a{
     padding: 20px 90px;
     margin-left: -90px;
   }
-}
+  #about-section .about-container {
+    flex-direction: column;
+    padding: 1rem .9rem;
+    margin: 30px 0;
+  }
+  #about-section .about-container .textBox{
+    width: 100%;
+    padding: 1rem;
+    margin-top: 130px;
+    height: auto;
+  }
+  #about-section .about-container .textBox P {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  #about-section .about-container .img {
+    top: 67px;
+    left: 100px;
+  }
+  #about-section .about-container .textBox .stacks {
+    margin: 10px auto;
+  }
+  }
+ /*  @media screen and (min-width: 801px) {
+  #hero-section .hero-container .textBox{
+    margin-left: 10px;
+  
+  }
+  #hero-section .hero-container .textBox h1{
+    font-size: 4.4rem;
+  }
+  #hero-section .hero-container .textBox h3{
+    font-size: 2rem;
+  }
+  #hero-section .hero-container .textBox p {
+    width: 400px;
+  }
+  #hero-section .hero-container .illustration {
+    margin-left: -50px;
+  }
+  #about-section .about-container {
+    padding: .4rem;
+  }
+  #about-section .about-container .img {
+    top: 10px;
+    left: 110px;
+  }
+  #about-section .about-container .bottomBtn {
+   margin: 10px auto;
+  }
+} */
