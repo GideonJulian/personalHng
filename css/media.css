@@ -74,6 +74,10 @@
   #goal-section .goal-container  .goals{
       flex-direction: column;
   }
+  #goal-section .goal-container  .goals .goal{ 
+
+    width: 320px;
+  }
   }
  /*  @media screen and (min-width: 801px) {
   #hero-section .hero-container .textBox{
