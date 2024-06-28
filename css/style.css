@@ -35,6 +35,18 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+#nav-section .nav-container .bars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+#nav-section .nav-container .bars span{
+  height: 2px ;
+  width: 40px;
+  background-color: black;
+}
 #nav-section .nav-container .logo h3 {
   color: var(--logo-color);
   font-family: var(--logo-font);
