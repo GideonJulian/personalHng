@@ -83,6 +83,7 @@ body {
   margin-right: auto;
   display: flex;
   align-items: center;
+  margin-top: 110px;
 }
 #hero-section .hero-container .textBox {
   margin-top: 30px;
